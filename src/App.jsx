@@ -6,7 +6,7 @@ function App() {
 
   return (
     <>  
-      <Router basename="/md-portfolio-2">
+      <Router basename={import.meta.env.BASE_URL}>
         <Header/>
           <div className="main">
             <Routes>
