@@ -6,7 +6,7 @@ function App() {
 
   return (
     <>  
-      <Router>
+      <Router basename="/md-portfolio-2">
         <Header/>
           <div className="main">
             <Routes>
