@@ -1,0 +1,77 @@
+$ascent_color: #5221e6;
+$body_font: 'Sen-Regular';
+$border_color:#232323;
+$heading_font_bold:'Sen-Bold'; 
+$heading_font_exbold:'Sen-ExtraBold'; 
+$primary_background_color: #000000;
+$primary_text_color:#FFFFFF;
+$primary_btn_background: #5221E6;
+$primary_link_color: #06DDDE;
+$secondary_text_color: #8491A0;
+$secondary_background_color:#181823;
+
+
+
+.cursor-pinter {
+    cursor: pointer;
+}
+
+// Menu bar show
+.menu-item-bar-show {
+    max-height: 360px !important;
+}
+
+
+.h1-title {
+    font-size: calc(2.375rem + 1.5vw);
+    font-family: 'Sen-Bold';
+    color:$primary_text_color
+}
+
+
+.h2-title {
+    font-size: calc(1.175rem + 1.5vw);
+    font-family: 'Sen-Bold';
+    color:$primary_text_color
+}
+
+
+.h4-title {
+    color: $secondary_text_color;
+}
+
+
+.h3-title {
+    color: $primary_text_color;
+    font-size: 1.2em;
+    font-family: 'Sen-Bold';
+}
+
+
+
+.paragraph-1 {
+    font-size: 0.9em;
+}
+
+.light-gray {
+    color:$secondary_text_color
+}
+
+
+.big-num {
+    color: $secondary_text_color;
+    font-family: 'Sen-Regular';
+    font-size: 6em;
+}
+
+.color-green {
+    color:#3CC74E;
+}
+
+.color-blue {
+    color:#609BFF;
+}
+
+.color-pink {
+    color:#E35B8C;
+}

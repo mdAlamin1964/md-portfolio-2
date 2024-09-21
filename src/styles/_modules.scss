@@ -1,0 +1,32 @@
+// Module 0
+.module-0 {
+    background-color: $secondary_background_color;
+    .left-bar {
+        padding: calc(1.375rem + 5.5vw) 0;
+        background: $primary_background_color;
+        display: flex;
+        align-items: center;
+        .hero-image {
+            img {
+                width: 130%;
+                min-height: 400px;
+                object-fit: cover;
+            }
+        }
+    }
+    .right-bar {
+        padding: 10rem 0;
+        display: flex;
+        align-items: center;
+        max-width: 750px;
+    }
+}
+
+
+
+
+// Module 1
+.module-1 {
+    padding: 9em 0;
+    background: $primary_background_color;
+}

@@ -1,0 +1,52 @@
+@import './config';
+@import './fonts';
+@import './resets';
+@import './modules';
+
+body {
+    background: gray;
+}
+
+// Header
+.main-header {
+    position: absolute;
+    top:0;
+    background: transparent;
+    .mobile-menu-icon {
+        display: none;
+    }
+    .logo-bar {
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+    .name-logo{
+        color: $primary_text_color;
+        font-family: $heading_font_bold;
+    }
+    h1 {
+        letter-spacing: -2px;
+    }
+
+    a{
+        font-family: 'Sen-Regular';
+        color: $secondary_text_color;
+        padding: 1.9rem 1rem;
+        display: block;
+
+        &:hover {
+            color:$primary_link_color;
+        }
+    }
+    .contact {
+        background-color: $ascent_color;
+        color:white;
+        font-family: 'Sen-Bold';
+    }
+}
+
+// Header end 
+
+
+
+// Responsive
+@import './responsive'
