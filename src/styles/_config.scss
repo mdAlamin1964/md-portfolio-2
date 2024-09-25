@@ -5,10 +5,10 @@ $heading_font_bold:'Sen-Bold';
 $heading_font_exbold:'Sen-ExtraBold'; 
 $primary_background_color: #000000;
 $primary_text_color:#FFFFFF;
-$primary_btn_background: #5221E6;
 $primary_link_color: #06DDDE;
 $secondary_text_color: #8491A0;
 $secondary_background_color:#181823;
+$background-color-2: #FFF3E4;
 
 
 
@@ -23,7 +23,7 @@ $secondary_background_color:#181823;
 
 
 .h1-title {
-    font-size: calc(2.375rem + 1.5vw);
+    font-size: calc(2.275rem + 1.5vw);
     font-family: 'Sen-Bold';
     color:$primary_text_color
 }
@@ -43,14 +43,20 @@ $secondary_background_color:#181823;
 
 .h3-title {
     color: $primary_text_color;
-    font-size: 1.2em;
+    font-size: 1.3em;
     font-family: 'Sen-Bold';
 }
 
 
 
 .paragraph-1 {
+    font-size: 1.1em;
+    line-height: 1.5em;
+}
+
+.paragraph-2 {
     font-size: 0.9em;
+    line-height: 1.5em;
 }
 
 .light-gray {
@@ -74,4 +80,29 @@ $secondary_background_color:#181823;
 
 .color-pink {
     color:#E35B8C;
+}
+
+
+
+.site-btn-1  {
+    font-size: 1.2em;
+    color:$secondary_background_color;
+    border-bottom: 1px solid $secondary_background_color;
+    padding: 0.6em 0;
+
+    &:hover {
+        color:$primary_text_color;
+        background:$ascent_color ;
+        padding: 0.6em 0.8em;
+    }
+}
+
+
+
+
+.site-blurb-1 {
+    img {
+        width: 40px;
+        margin-bottom: 1em;
+    }
 }

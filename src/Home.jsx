@@ -1,5 +1,7 @@
 import React from "react";
 import hero_image_1 from './assets/hero-image1.jpg'
+import home1 from './assets/home1.jpg'
+import code_icon from './assets/code-icon.png'
 
 export default function Home(){
     return (
@@ -73,6 +75,102 @@ export default function Home(){
                             I currently am the lead designer on the interaction design team for Google Play.
                             </p>
                         </div>
+                    </div>
+                </div>
+
+                {/* Module 2 */}
+                <div className="module-2 p-0">
+                    <div class="row g-0">
+                        <div className="col-md-6 left my-5 px-5">
+                            <h1 className="h1-title mb-4">Philosophy & values</h1>
+                            <p className="paragraph-1">
+                                I think everyone wants the same thing - relationship with humanity, peace with the metaphysical, and experience with the universe. I try to grasp these things with my values: authenticity, creativity, & hospitality.
+                            </p>
+
+                            <a href="#" className="site-btn-1">More about me</a>
+                        </div>
+                        <div className="col-md-6 right p-0">
+                            <img src={home1} alt="" />
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+                {/* Module 3 */}
+                <div className="module-3 py-5 px-5">
+                    <div className="row g-5 py-5">
+                        <div className="col-md-4 left">
+                            <h1 className="h1-title mb-4">Skillset</h1>
+                            <p className="paragraph-1">
+                                With skills in over 4 different fields of design, I am the perfect person to hire when it comes to a full fledged project. Whatever your needs are, I can pretty much take on any challenge.
+                                </p>
+                        </div>
+
+                        <div className="col-md-8 middle">
+                            <div className="row g-sm-5">
+                                <div className="col-sm-6">
+                                    <div className="site-blurb-1">
+                                        <img src={code_icon} alt="" />
+                                        <h3 className="h3-title mb-3">
+                                            Product Design
+                                        </h3>
+                                        <p className="paragraph-2">
+                                            Working at Facebook has taught me a lot about how to understand users, solve problems and build great products.
+                                        </p>
+
+                                    </div>
+                                </div>
+                                <div className="col-sm-6">
+                                    <div className="site-blurb-1">
+                                            <img src={code_icon} alt="" />
+                                            <h3 className="h3-title mb-3">
+                                                Product Design
+                                            </h3>
+                                            <p className="paragraph-2">
+                                                Working at Facebook has taught me a lot about how to understand users, solve problems and build great products.
+                                            </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div className="row g-sm-5">
+                                <div className="col-sm-6">
+                                    <div className="site-blurb-1">
+                                        <img src={code_icon} alt="" />
+                                        <h3 className="h3-title mb-3">
+                                            Product Design
+                                        </h3>
+                                        <p className="paragraph-2">
+                                            Working at Facebook has taught me a lot about how to understand users, solve problems and build great products.
+                                        </p>
+
+                                    </div>
+                                </div>
+                                <div className="col-sm-6">
+                                    <div className="site-blurb-1">
+                                            <img src={code_icon} alt="" />
+                                            <h3 className="h3-title mb-3">
+                                                Product Design
+                                            </h3>
+                                            <p className="paragraph-2">
+                                                Working at Facebook has taught me a lot about how to understand users, solve problems and build great products.
+                                            </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+
+
+                {/* module 4 */}
+                <div className="module-4">
+                    <div className="logo-box">
+                        
                     </div>
                 </div>
             </div>

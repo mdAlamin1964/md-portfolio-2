@@ -4,6 +4,7 @@
     list-style: none;
     text-decoration: none;
     transition: 0.4s;
+    box-sizing: border-box;
 }
 
 a {
@@ -26,3 +27,9 @@ p {
 }
 
 
+// Bootstrap reset
+
+.my-5 {
+    margin-top: 5em !important;
+    margin-bottom: 5em !important;
+} 

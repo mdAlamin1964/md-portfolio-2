@@ -7,7 +7,7 @@
 }
 
 .h1-title {
-  font-size: calc(2.375rem + 1.5vw);
+  font-size: calc(2.275rem + 1.5vw);
   font-family: "Sen-Bold";
   color: #FFFFFF;
 }
@@ -24,12 +24,18 @@
 
 .h3-title {
   color: #FFFFFF;
-  font-size: 1.2em;
+  font-size: 1.3em;
   font-family: "Sen-Bold";
 }
 
 .paragraph-1 {
+  font-size: 1.1em;
+  line-height: 1.5em;
+}
+
+.paragraph-2 {
   font-size: 0.9em;
+  line-height: 1.5em;
 }
 
 .light-gray {
@@ -54,6 +60,23 @@
   color: #E35B8C;
 }
 
+.site-btn-1 {
+  font-size: 1.2em;
+  color: #181823;
+  border-bottom: 1px solid #181823;
+  padding: 0.6em 0;
+}
+.site-btn-1:hover {
+  color: #FFFFFF;
+  background: #5221e6;
+  padding: 0.6em 0.8em;
+}
+
+.site-blurb-1 img {
+  width: 40px;
+  margin-bottom: 1em;
+}
+
 @font-face {
   font-family: "Sen-Bold";
   src: url("../fonts/Sen-Bold.ttf");
@@ -72,6 +95,7 @@
   list-style: none;
   text-decoration: none;
   transition: 0.4s;
+  box-sizing: border-box;
 }
 
 a {
@@ -90,6 +114,11 @@ h1 {
 p {
   font-family: "Sen-Regular";
   color: white;
+}
+
+.my-5 {
+  margin-top: 5em !important;
+  margin-bottom: 5em !important;
 }
 
 .module-0 {
@@ -119,8 +148,41 @@ p {
   background: #000000;
 }
 
+.module-2 {
+  background: #FFF3E4;
+}
+.module-2 .left {
+  position: relative;
+}
+.module-2 .left h1 {
+  color: #000000;
+}
+.module-2 .left p {
+  color: #8491A0;
+}
+.module-2 .left .site-btn-1 {
+  position: absolute;
+  bottom: 0;
+}
+.module-2 .right img {
+  width: 100%;
+  max-height: 500px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.module-3 .paragraph-1 {
+  color: #8491A0;
+}
+.module-3 .site-blurb-1 {
+  margin-bottom: 3em;
+}
+.module-3 .site-blurb-1 .paragraph-2 {
+  color: #8491A0;
+}
+
 body {
-  background: gray;
+  background: #000000;
 }
 
 .main-header {

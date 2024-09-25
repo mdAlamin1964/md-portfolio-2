@@ -30,3 +30,57 @@
     padding: 9em 0;
     background: $primary_background_color;
 }
+
+
+// Module 2
+.module-2 {
+    background: $background-color-2;
+    .left {
+        position: relative;
+        h1 {
+            color: $primary_background_color;
+        }
+        p {
+            color: $secondary_text_color;
+        }
+        .site-btn-1 {
+            position: absolute;
+            bottom: 0;
+        }
+    }
+
+
+    .right {
+        img {
+            width: 100%;
+            max-height: 500px;
+            object-fit: cover;
+        }
+    }
+
+
+}
+
+
+
+
+
+
+
+
+// Module 3
+.module-3 {
+    .paragraph-1 {
+        color: $secondary_text_color;
+    }
+    .site-blurb-1 {
+        margin-bottom: 3em;
+
+        .paragraph-2 {
+            color: $secondary_text_color;
+        }
+    }
+}
+
+
+
