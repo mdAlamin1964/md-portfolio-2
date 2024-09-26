@@ -1,7 +1,10 @@
+// Main theme
 @import './config';
 @import './fonts';
 @import './resets';
 @import './modules';
+// pages
+@import './home';
 
 body {
     background: $primary_background_color

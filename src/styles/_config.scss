@@ -9,6 +9,7 @@ $primary_link_color: #06DDDE;
 $secondary_text_color: #8491A0;
 $secondary_background_color:#181823;
 $background-color-2: #FFF3E4;
+$background-color-3: #FBE4FF;
 
 
 
@@ -50,7 +51,7 @@ $background-color-2: #FFF3E4;
 
 
 .paragraph-1 {
-    font-size: 1.1em;
+    font-size: calc(0.6rem + 0.7vw);
     line-height: 1.5em;
 }
 
@@ -106,3 +107,117 @@ $background-color-2: #FFF3E4;
         margin-bottom: 1em;
     }
 }
+
+
+
+
+.logo-box {
+    ul {
+        display: flex;
+        justify-content: space-around;
+        li {
+            padding: 2.5vw 0;
+            width: 100%;
+            text-align: center;
+            border: 1px solid $border_color;
+            img {
+                width: 30px
+            }
+
+            
+        }
+    }
+}
+
+
+
+
+.image-box-blurb {
+    background: $secondary_background_color;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 2em;
+    img {
+        width: 100%;
+    }
+    .info {
+        padding: 3em 2em;
+        h3 {
+            color:$primary_link_color;
+            margin-bottom: 1em;
+        }
+    }
+
+    .icon-bottom {
+        position:absolute;
+        bottom: -50px;
+        right: -50px;
+        height: 50px;
+        width: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        font-size: 30px;
+        background: $ascent_color;
+        color: $primary_text_color;
+    }
+    &:hover{
+        transform: scale(1.02);
+        h3{
+            padding:0 .4em;
+        }
+        .icon-bottom { 
+            right: 0;
+            bottom: 0;
+        }
+    }
+}
+
+
+
+
+
+.site-btn-2 {
+    color:$primary_text_color;
+    text-transform: uppercase;
+    font-family: 'Sen-Bold';
+    padding: 1.5em 2em;
+    border: 1px solid $ascent_color;
+    display: inline-block;
+
+    &:hover {
+        background: $ascent_color;
+        transform: scaleY(.98);
+        margin-top: -3px;
+    }
+}
+
+
+
+
+
+.image-box-blurb-2 {
+    border: 1px solid $secondary_text_color;
+    margin-bottom: 3em;
+    img {
+        width: 100%;
+    }
+    .info {
+        padding: 2em;
+
+        h3{
+            line-height: 1.3em;
+            margin-bottom: 3em;
+        }
+        h4 {
+            font-size: 1.3em;
+        }
+
+        .paragraph-1 {
+            color: $primary_text_color;
+        }
+    }
+} 
+
+
+

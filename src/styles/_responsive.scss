@@ -42,6 +42,7 @@
         .left-bar {
             padding: calc(1.375rem + 0.5vw) 0;
             padding-bottom: 0;
+            margin-bottom: -50vw;
             .hero-image {
                 img {
                     width: 100%;
@@ -52,4 +53,27 @@
     }
 
     /////
+    
+
+    .logo-box {
+        ul {
+            display: grid;
+            grid-template-columns:  repeat(2, minmax(200px, 1fr));
+            justify-self: center;
+           li {
+            padding: 30px 0;;
+           }
+        }
+
+    }
+
+
+
+
+    // Moudle 6
+    .module-6 {
+        .stuck-image {
+            height: 50vh;
+        }
+    }
 }

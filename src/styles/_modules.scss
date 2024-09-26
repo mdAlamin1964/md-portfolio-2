@@ -84,3 +84,90 @@
 
 
 
+
+
+// Module 4
+.module-4 {
+}
+
+
+
+
+
+// Module 5
+.module-5 {
+    .btn-area {
+        text-align: center;
+        margin-top: 5em !important;
+    }
+    
+}
+
+
+
+
+
+
+
+// Module 6 {
+.module-6 {
+
+    .site-btn-1 {
+        color:$primary_text_color;
+        border-bottom-color: $secondary_text_color;
+    }
+    .paragraph-1 {
+        color:$secondary_text_color;
+    }
+
+    .stuck-image {
+        overflow: hidden;
+        .bar {
+            background-color: $secondary_background_color;
+            display: flex;
+            align-items: center;
+            color: $secondary_text_color;
+            font-size: 3.5em;
+            line-height: 1;
+        }
+        height: 50vw;
+        background: url('../assets/image2.png');
+        background-size: cover;
+        background-attachment: fixed;
+        border-radius: 10px; 
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+// Module 7 {
+.module-7 {
+    .paragraph-1 {
+        color:$secondary_text_color;
+    }
+    .site-btn-1 {
+        color:$primary_text_color;
+        border-bottom-color: $secondary_text_color;
+    }
+}
+
+
+
+
+
+// Module 8 {
+.module-8 {
+    .paragraph-1 {
+        color:$secondary_text_color;
+    }
+   
+}
