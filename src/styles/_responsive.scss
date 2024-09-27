@@ -76,4 +76,22 @@
             height: 50vh;
         }
     }
+
+
+    // Module 8
+    .module-8 { 
+        .image-gallery {
+            ul {
+                grid-template-columns: repeat(1, auto) !important;
+            }
+        }
+
+    }
+
+
+
+
+
+
+
 }

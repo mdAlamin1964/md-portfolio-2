@@ -169,5 +169,87 @@
     .paragraph-1 {
         color:$secondary_text_color;
     }
+
+    .bottom {
+        .site-btn-2 {
+            padding: 0.7em 1.6em;
+        }
+        .active {
+            background: $ascent_color;
+        }
+        .list {
+            ul {
+                li{
+                    display: inline-block;
+                    margin-right: 1.2em;
+                }
+            }
+        }
+
+        .image-gallery {
+            ul {
+                display: grid;
+                grid-template-columns: repeat(4, auto);
+                column-gap: 1em; 
+                li {
+                    margin-bottom: 1em;
+                    img{
+                        width: 100%;
+                    }
+                }
+            }
+        }
+
+    }
+
    
 }
+
+
+
+
+
+
+
+// Module 9
+.module-9  {
+    max-width: 1100px;
+    margin: auto;
+    .right {
+        .contact-form {
+            input, textarea {
+                display: block;
+                width: 100%;
+                margin-bottom: 2em;
+                background: $secondary_background_color;
+                border: none;
+                color: $primary_text_color;
+                outline: none;
+            }
+            input {
+                padding: .4em .5em;
+                
+            }
+            label{
+                color:$primary_text_color;
+                font-family: 'Sen-Bold';
+                margin-bottom: 5px;
+            }
+
+            .site-btn-2{
+                background: $ascent_color;
+                padding: 1.2em 0;
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+

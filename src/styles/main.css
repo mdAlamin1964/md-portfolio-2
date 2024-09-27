@@ -1,9 +1,18 @@
 .cursor-pinter {
   cursor: pointer;
 }
+.cursor-pinter:hover {
+  opacity: 0.9;
+}
 
 .menu-item-bar-show {
   max-height: 360px !important;
+}
+
+.name-logo {
+  color: #FFFFFF;
+  font-family: "Sen-Bold";
+  font-size: 3em;
 }
 
 .h1-title {
@@ -29,6 +38,12 @@
 }
 
 .paragraph-1 {
+  font-size: calc(0.6rem + 0.7vw);
+  line-height: 1.5em;
+}
+
+.paragraph-1-gray {
+  color: #8491A0;
   font-size: calc(0.6rem + 0.7vw);
   line-height: 1.5em;
 }
@@ -310,6 +325,54 @@ p {
 .module-8 .paragraph-1 {
   color: #8491A0;
 }
+.module-8 .bottom .site-btn-2 {
+  padding: 0.7em 1.6em;
+}
+.module-8 .bottom .active {
+  background: #5221e6;
+}
+.module-8 .bottom .list ul li {
+  display: inline-block;
+  margin-right: 1.2em;
+}
+.module-8 .bottom .image-gallery ul {
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  -moz-column-gap: 1em;
+       column-gap: 1em;
+}
+.module-8 .bottom .image-gallery ul li {
+  margin-bottom: 1em;
+}
+.module-8 .bottom .image-gallery ul li img {
+  width: 100%;
+}
+
+.module-9 {
+  max-width: 1100px;
+  margin: auto;
+}
+.module-9 .right .contact-form input, .module-9 .right .contact-form textarea {
+  display: block;
+  width: 100%;
+  margin-bottom: 2em;
+  background: #181823;
+  border: none;
+  color: #FFFFFF;
+  outline: none;
+}
+.module-9 .right .contact-form input {
+  padding: 0.4em 0.5em;
+}
+.module-9 .right .contact-form label {
+  color: #FFFFFF;
+  font-family: "Sen-Bold";
+  margin-bottom: 5px;
+}
+.module-9 .right .contact-form .site-btn-2 {
+  background: #5221e6;
+  padding: 1.2em 0;
+}
 
 .home-sac-6 {
   background: #FBE4FF;
@@ -331,10 +394,6 @@ body {
   padding-top: 1rem;
   padding-bottom: 1rem;
 }
-.main-header .name-logo {
-  color: #FFFFFF;
-  font-family: "Sen-Bold";
-}
 .main-header h1 {
   letter-spacing: -2px;
 }
@@ -351,6 +410,32 @@ body {
   background-color: #5221e6;
   color: white;
   font-family: "Sen-Bold";
+}
+
+.footer {
+  background: #181823;
+}
+.footer .social-icons li {
+  width: 25px;
+  display: inline-block;
+  margin-right: 1em;
+}
+.footer .social-icons li img {
+  width: 100%;
+}
+.footer .footer-menu li {
+  margin: 1.5em 0;
+}
+.footer .footer-menu li a {
+  color: #FFFFFF;
+  font-family: "Sen-Regular";
+}
+.footer .footer-menu li a:hover {
+  color: #06DDDE;
+}
+.footer .footer-copy h4 {
+  font-size: 1.4em;
+  color: #06DDDE;
 }
 
 @media (max-width: 768px) {
@@ -402,5 +487,8 @@ body {
   }
   .module-6 .stuck-image {
     height: 50vh;
+  }
+  .module-8 .image-gallery ul {
+    grid-template-columns: repeat(1, auto) !important;
   }
 }/*# sourceMappingURL=main.css.map */

@@ -2,6 +2,7 @@ import React from "react"
 import { Routes, Route } from 'react-router-dom'
 import Header from "./Header"
 import Home from "./Home"
+import Footer from "./Footer"
 import 'bootstrap/dist/css/bootstrap.min.css'
 import './styles/main.css'
 
@@ -36,6 +37,8 @@ function toggle_mobile_menu_toggle() {
               } />
             </Routes>
           </div>
+
+          <Footer />
     </>
   )
 }

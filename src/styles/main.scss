@@ -22,10 +22,6 @@ body {
         padding-top: 1rem;
         padding-bottom: 1rem;
     }
-    .name-logo{
-        color: $primary_text_color;
-        font-family: $heading_font_bold;
-    }
     h1 {
         letter-spacing: -2px;
     }
@@ -48,6 +44,53 @@ body {
 }
 
 // Header end 
+
+
+
+// Footer
+.footer {
+    background: $secondary_background_color;
+    .social-icons {
+        li {
+            width: 25px;
+            display: inline-block;
+            margin-right: 1em;
+            img {
+                width: 100%;
+            }
+        }
+    }
+
+
+    .footer-menu {
+        li {
+            margin: 1.5em 0;
+            a {
+                color: $primary_text_color;
+                font-family: 'Sen-Regular';
+
+                &:hover {
+                    color: $primary_link_color;
+                }
+            }
+        }
+    }
+
+    .footer-copy {
+        h4 {
+            font-size: 1.4em;
+            color: $primary_link_color;
+        }
+    }
+
+}
+
+
+
+
+
+
+
 
 
 

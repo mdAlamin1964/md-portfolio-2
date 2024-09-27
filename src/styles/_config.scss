@@ -15,11 +15,22 @@ $background-color-3: #FBE4FF;
 
 .cursor-pinter {
     cursor: pointer;
+    &:hover {
+        opacity: 0.9;
+    }
 }
 
 // Menu bar show
 .menu-item-bar-show {
     max-height: 360px !important;
+}
+
+
+
+.name-logo{
+    color: $primary_text_color;
+    font-family: $heading_font_bold;
+    font-size: 3em;
 }
 
 
@@ -51,6 +62,12 @@ $background-color-3: #FBE4FF;
 
 
 .paragraph-1 {
+    font-size: calc(0.6rem + 0.7vw);
+    line-height: 1.5em;
+}
+
+.paragraph-1-gray{
+    color:$secondary_text_color;
     font-size: calc(0.6rem + 0.7vw);
     line-height: 1.5em;
 }

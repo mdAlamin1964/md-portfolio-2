@@ -310,7 +310,7 @@ export default function Home(){
 
 
                 {/* Module  7*/}
-                <div className="module-7 py-5 px-md-5 px-3">
+                <div className="module-7 py-5 px-md-5 px-3 overflow-hidden">
                     <div className="row py-5 my-5 g-5">
                         <div className="col-md-6 left">
                             <h1 className="h1-title mb-4">
@@ -383,11 +383,11 @@ export default function Home(){
                                 places all around the world.
                             </p>
                         </div>
-                        <div className="bottom">
-                            <div className="list">
+                        <div className="bottom mt-5">
+                            <div className="list my-4">
                                 <ul>
                                     <li>
-                                        <a href="#" className="site-btn-2">Italy</a>
+                                        <a href="#" className="site-btn-2 active">Italy</a>
                                     </li>
                                     <li><a href="#" className="site-btn-2">India</a></li>
                                     <li><a href="#" className="site-btn-2">Brazil</a></li>
@@ -407,13 +407,38 @@ export default function Home(){
                                     <li>
                                         <img src={tiles1} alt="" />
                                     </li>
-                                    <li>
-                                        <img src={tiles1} alt="" />
-                                    </li>
-                                    <li>
-                                        <img src={tiles1} alt="" />
-                                    </li>
                                 </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                {/* Module 9 */}
+                <div className="module-9 py-5 px-md-5 px-3">
+                    <div className="row">
+                        <div className="col-md-6 left">
+                            <h1 className="h1-title">
+                            Let’s talk business
+                            </h1>
+                            <p className="paragraph-1-gray">
+                                Now that you know a lot about me, let me know if you are interested to work with me.
+                            </p>
+                        </div>
+                        <div className="col-md-6 right">
+                            <div className="contact-form">
+                                <form action="#">
+                                    <label htmlFor="name">Name</label>
+                                    <input type="text" id="name" />
+
+                                    <label htmlFor="email">Email</label>
+                                    <input type="email" id="email" />
+
+                                    <label htmlFor="message">Message</label>
+                                    <textarea  id="message"></textarea>
+
+                                    <input className="site-btn-2" type="button" value="Let’s get Stated" />
+                                </form>
                             </div>
                         </div>
                     </div>
