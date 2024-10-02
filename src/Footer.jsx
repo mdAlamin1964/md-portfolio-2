@@ -47,7 +47,7 @@ export default function Footer(){
                             <p className="paragraph-1-gray mb-0">
                             No Copyright 2020 • Robin Williams. Webflow cloneable
                             </p>
-                            <h4 className="h4-title cursor-pinter">Created by Chethan KVS</h4>
+                            <h4 className="h4-title cursor-pinter">Created by Md. Alamin</h4>
                         </div>
                     </div>
 

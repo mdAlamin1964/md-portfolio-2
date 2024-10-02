@@ -1,5 +1,6 @@
 // Module 0
 .module-0 {
+    overflow: hidden;
     background-color: $secondary_background_color;
     .left-bar {
         padding: calc(1.375rem + 5.5vw) 0;
@@ -18,7 +19,8 @@
         padding: 10rem 0;
         display: flex;
         align-items: center;
-        max-width: 750px;
+        max-width: 850px;
+
     }
 }
 
@@ -37,6 +39,7 @@
     background: $background-color-2;
     .left {
         position: relative;
+        min-height: 300px;
         h1 {
             color: $primary_background_color;
         }
@@ -53,7 +56,7 @@
     .right {
         img {
             width: 100%;
-            max-height: 500px;
+            max-height: 700px;
             object-fit: cover;
         }
     }
@@ -88,6 +91,7 @@
 
 // Module 4
 .module-4 {
+
 }
 
 
@@ -111,6 +115,9 @@
 
 // Module 6 {
 .module-6 {
+    .left {
+        min-height: 300px;
+    }
 
     .site-btn-1 {
         color:$primary_text_color;
@@ -151,12 +158,20 @@
 
 // Module 7 {
 .module-7 {
+    position: relative;
     .paragraph-1 {
         color:$secondary_text_color;
     }
     .site-btn-1 {
         color:$primary_text_color;
         border-bottom-color: $secondary_text_color;
+    }
+    .left {
+        position: -webkit-sticky;
+        position: sticky ;
+        top: 40px ;
+        z-index: 10;
+        max-height: 350px;
     }
 }
 

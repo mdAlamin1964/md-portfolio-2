@@ -1,0 +1,51 @@
+$duration: 2s;
+$easing: ease-in-out;
+
+@mixin fade-in($duration, $easing){
+    animation: fadeIn $duration $easing;
+}
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.fade-in {
+    @include fade-in($duration,$easing);
+}
+
+
+
+
+
+.slide-left {
+    animation: slideLeft $duration $easing;
+}
+
+@keyframes slideLeft {
+    0% {
+        margin-left: -100%;
+    }
+    100% {
+        margin-left: 0px;
+    }
+}
+
+
+.slide-right {
+    animation: slideRight $duration $easing;
+}
+
+@keyframes slideRight {
+    0% {
+        margin-left: 100%;
+    }
+    100% {
+        margin-left: 0px;
+    }
+}
+
+

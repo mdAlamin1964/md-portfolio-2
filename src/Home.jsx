@@ -4,6 +4,12 @@ import home1 from './assets/home1.jpg'
 import code_icon from './assets/code-icon.png'
 import code_icon1 from './assets/code-icon1.png'
 import tiles1 from './assets/tiles1.jpg'
+import module_4_1 from './assets/module-4-1.jpg'
+import module_4_2 from './assets/module-4-2.png'
+import module_4_3 from './assets/module-4-3.png'
+
+
+
 
 export default function Home(){
     return (
@@ -11,20 +17,20 @@ export default function Home(){
             <div className="main-home container-fluid p-0">
                 {/* module 0 */}
                 <div className="row section-0 module-0 m-0">
-                    <div className="col-md-4 left-bar">
-                        <div className="hero-image">
-                            <img src={hero_image_1} alt="" />
+                    <div className="col-md-4 left-bar ">
+                        <div className="hero-image ">
+                            <img className="slide-left" src={hero_image_1} alt="" />
                         </div>
                     </div>
-                    <div className="col-md-8 right-bar px-md-5 px-3">
+                    <div className="col-md-8 right-bar px-md-5 px-3  slide-right">
                         <div className="info">
-                            <h1 className="h1-title mb-5">
+                            <h1 className="h1-title mb-5 ">
                             "Hi, I'm Md. Alamin, a certified frontend developer and WordPress expert with 300+ website builds."
                             <br />
                             <span className="light-gray"> from Dhaka, Bangladesh.</span> 
                             </h1>
                             <p className="paragraph-1">
-                                I’m probably the most passionate designer you will ever get to work with. If you have a great project that needs some amazing skills, I’m your guy.
+                                I am a highly passionate web developer with expertise in React, Wix, and Squarespace. If you have an exciting project that requires top-notch skills, I’m the right person for the job.
                             </p>
                             
                         </div>
@@ -49,10 +55,10 @@ export default function Home(){
                                 01
                             </div>
                             <h3 className="h3-title mb-2">
-                                <span className="color-green">Google</span>,Interaction Designer
+                                <span className="color-green">Fiverr</span>, Web developer
                             </h3>
                             <p className="paragraph-1">
-                            I currently am the lead designer on the interaction design team for Google Play.
+                            I am currently working as a freelancer on Fiverr. Feel free to visit my profile to learn more about my services.
                             </p>
                         </div>
                         <div className="col-md-4">
@@ -60,10 +66,10 @@ export default function Home(){
                                 02
                             </div>
                             <h3 className="h3-title mb-2">
-                                <span className="color-blue">Google</span>,Interaction Designer
+                                <span className="color-blue">upWork</span>, WordPress developer
                             </h3>
                             <p className="paragraph-1">
-                            I currently am the lead designer on the interaction design team for Google Play.
+                                I am currently working as a freelance WordPress developer on Upwork. Feel free to check out my profile for more details.
                             </p>
                         </div>
                         <div className="col-md-4">
@@ -71,10 +77,10 @@ export default function Home(){
                                 03
                             </div>
                             <h3 className="h3-title mb-2">
-                                <span className="color-pink">Google</span>,Interaction Designer
+                                <span className="color-pink">Cure-it-Systems</span>, Web developer and Executive assistant
                             </h3>
                             <p className="paragraph-1">
-                            I currently am the lead designer on the interaction design team for Google Play.
+                                I oversee all website-related tasks and build websites for clients while also managing executive operations for Cure-it-Systems
                             </p>
                         </div>
                     </div>
@@ -85,11 +91,11 @@ export default function Home(){
                     <div class="row g-0">
                         <div className="col-md-6 left my-5 px-md-5 px-3">
                             <h1 className="h1-title mb-4">Philosophy & values</h1>
-                            <p className="paragraph-1">
-                                I think everyone wants the same thing - relationship with humanity, peace with the metaphysical, and experience with the universe. I try to grasp these things with my values: authenticity, creativity, & hospitality.
+                            <p className="paragraph-1 mb-5 pb-5">
+                            My philosophy centers on creativity, where each website is an opportunity to tell a story. I’m passionate about web building, aiming to craft engaging digital experiences that resonate with users. By blending innovative design with intuitive functionality, I ensure every project reflects the client's vision and connects with their audience. This commitment drives my dedication to delivering exceptional web solutions.
                             </p>
 
-                            <a href="#" className="site-btn-1">More about me</a>
+                            <a href="https://www.linkedin.com/in/alamin1964/" target="_blank"  className="site-btn-1">More about me</a>
                         </div>
                         <div className="col-md-6 right p-0">
                             <img src={home1} alt="" />
@@ -101,12 +107,12 @@ export default function Home(){
 
 
                 {/* Module 3 */}
-                <div className="module-3 py-5 pb-0 px-md-5 px-3 overflow-hidden">
+                <div className="module-3 py-5 my-5 pb-0 px-md-5 px-3 overflow-hidden">
                     <div className="row g-5 py-5">
                         <div className="col-md-4 left">
                             <h1 className="h1-title mb-4">Skillset</h1>
                             <p className="paragraph-1">
-                                With skills in over 4 different fields of design, I am the perfect person to hire when it comes to a full fledged project. Whatever your needs are, I can pretty much take on any challenge.
+                                With expertise in various areas of web development, including WordPress, Squarespace, Wix, and React, I am your ideal choice for comprehensive projects. No matter your requirements, I’m ready to tackle any challenge that comes my way
                                 </p>
                         </div>
 
@@ -116,10 +122,10 @@ export default function Home(){
                                     <div className="site-blurb-1">
                                         <img src={code_icon} alt="" />
                                         <h3 className="h3-title mb-3">
-                                            Product Design
+                                            WordPress
                                         </h3>
                                         <p className="paragraph-2">
-                                            Working at Facebook has taught me a lot about how to understand users, solve problems and build great products.
+                                            Working with WordPress has deepened my understanding of user needs, problem-solving, and creating exceptional websites that deliver a great user experience.
                                         </p>
 
                                     </div>
@@ -128,10 +134,10 @@ export default function Home(){
                                     <div className="site-blurb-1">
                                             <img src={code_icon} alt="" />
                                             <h3 className="h3-title mb-3">
-                                                Product Design
+                                                Squarespace
                                             </h3>
                                             <p className="paragraph-2">
-                                                Working at Facebook has taught me a lot about how to understand users, solve problems and build great products.
+                                                I create stunning Squarespace websites that blend visual appeal with functionality, ensuring each site meets your specific needs and helps you stand out online.
                                             </p>
                                     </div>
                                 </div>
@@ -142,10 +148,10 @@ export default function Home(){
                                     <div className="site-blurb-1">
                                         <img src={code_icon} alt="" />
                                         <h3 className="h3-title mb-3">
-                                            Product Design
+                                            Wix
                                         </h3>
                                         <p className="paragraph-2">
-                                            Working at Facebook has taught me a lot about how to understand users, solve problems and build great products.
+                                            I specialize in building Wix websites that are visually appealing and user-friendly, tailored to meet your unique needs.
                                         </p>
 
                                     </div>
@@ -154,10 +160,10 @@ export default function Home(){
                                     <div className="site-blurb-1">
                                             <img src={code_icon} alt="" />
                                             <h3 className="h3-title mb-3">
-                                                Product Design
+                                                React
                                             </h3>
                                             <p className="paragraph-2">
-                                                Working at Facebook has taught me a lot about how to understand users, solve problems and build great products.
+                                                I specialize in building dynamic front-end websites using React, delivering engaging user experiences with seamless performance and modern design.
                                             </p>
                                     </div>
                                 </div>
@@ -170,17 +176,23 @@ export default function Home(){
 
 
                 {/* module 4 */}
-                <div className="module-4 pb-5 overflow-hidden">
+                <div className="module-4 pb-5 overflow-hidden py-5 my-5">
                     <div className="logo-box">
                         <ul>
                             <li>
-                                <img src={code_icon1} alt="" />
+                                <a href="" target="_blank">
+                                    <img src={module_4_1} alt="" />
+                                </a>
                             </li>
                             <li>
-                                <img src={code_icon1} alt="" />
+                                <a href="" target="_blank">
+                                    <img src={module_4_2} alt="" />
+                                </a>
                             </li>
                             <li>
-                                <img src={code_icon1} alt="" />
+                                <a href="" target="_blank">
+                                    <img src={module_4_3} alt="" />
+                                </a>
                             </li>
                             <li>
                                 <img src={code_icon1} alt="" />
@@ -198,25 +210,27 @@ export default function Home(){
 
 
                 {/* Moudle 5 */}
-                <div className="module-5 py-5 px-md-5 px-3">
-                    <div className="row">
+                <div className="module-5 py-5 px-md-5 px-3 ">
+                    <div className="row g-md-5">
                         <div className="col-md-6 left">
                             <h4 className="h4-title mb-3">MY PROJECTS</h4>
                             <h1 className="h1-title mb-5">Work that I’ve done for the past 8 years
                             </h1>
 
                             <div className="image-box-blurb">
-                                <img src={tiles1} alt="" />
-                                <div className="info">
-                                    <h3 className="h3-title">CoinView Mobile App Design</h3>
-                                    <p className="paragraph-1">
-                                    I was commissioned by Coinview to revamp their mobile app. I was asked to come up with a brand new design system and rethink the entire user experience from the ground up.
-                                    </p>
-                                </div>
+                                <a href="https://google.com" target="_blank">
+                                    <img src={tiles1} alt="" />
+                                    <div className="info">
+                                        <h3 className="h3-title">CoinView Mobile App Design</h3>
+                                        <p className="paragraph-1">
+                                        I was commissioned by Coinview to revamp their mobile app. I was asked to come up with a brand new design system and rethink the entire user experience from the ground up.
+                                        </p>
+                                    </div>
 
-                                <div className="icon-bottom">
-                                    ↗
-                                </div>
+                                    <div className="icon-bottom">
+                                        ↗
+                                    </div>
+                                </a>
                             </div>
 
                             <div className="image-box-blurb">
@@ -291,7 +305,7 @@ export default function Home(){
 
                 {/* Moudle 6 */}
                 <div className="module-6">
-                    <div className="info py-5 px-md-5 px-3">
+                    <div className="info py-5 my-5 my-4 px-md-5 px-3 container">
                         <h1 className="h1-title mb-4">
                             My Dribbble
                         </h1>
@@ -310,9 +324,9 @@ export default function Home(){
 
 
                 {/* Module  7*/}
-                <div className="module-7 py-5 px-md-5 px-3 overflow-hidden">
-                    <div className="row py-5 my-5 g-5">
-                        <div className="col-md-6 left">
+                <div className="module-7 py-5 px-md-5 px-3">
+                    <div className="row py-5 my-5 g-md-5">
+                        <div className="col-md-6 left my-md-5">
                             <h1 className="h1-title mb-4">
                                 This is what people say about me
                             </h1>
@@ -374,7 +388,7 @@ export default function Home(){
 
 
                 {/* Module 8 */}
-                <div className="module-8 py-5 px-md-5 px-3">
+                <div className="module-8 py-5 my-5 px-md-5 px-3">
                     <div className="top">
                         <div className="info mb-3">
                             <h1 className="h1-title">Photography</h1>
