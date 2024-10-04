@@ -219,12 +219,12 @@ export default function Home(){
                             </h1>
 
                             <div className="image-box-blurb">
-                                <a href="https://google.com" target="_blank">
-                                    <img src={Image_src+'ra.jpg'} alt="" />
+                                <a href="https://mdalmaincoder1.pythonanywhere.com/" target="_blank">
+                                    <img src={Image_src+'memsm.png'} alt="" />
                                     <div className="info">
-                                        <h3 className="h3-title">CoinView Mobile App Design</h3>
+                                        <h3 className="h3-title">MemeShare Social App</h3>
                                         <p className="paragraph-1">
-                                        I was commissioned by Coinview to revamp their mobile app. I was asked to come up with a brand new design system and rethink the entire user experience from the ground up.
+                                        Python, React, Sass, CSS their mobile app. I was asked to come up with a brand new design system and rethink the entire user experience from the ground up.
                                         </p>
                                     </div>
 
