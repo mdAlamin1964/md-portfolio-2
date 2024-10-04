@@ -4,7 +4,6 @@ import home1 from './assets/home1.jpg'
 import code_icon from './assets/code-icon.png'
 import code_icon1 from './assets/code-icon1.png'
 import tiles1 from './assets/tiles1.jpg'
-import module_4_1 from './assets/module-4-1.jpg'
 import module_4_2 from './assets/module-4-2.png'
 import module_4_3 from './assets/module-4-3.png'
 
@@ -12,6 +11,8 @@ import module_4_3 from './assets/module-4-3.png'
 
 
 export default function Home(){
+    const Image_src = "https://raw.githubusercontent.com/mdAlamin1964/md-portfolio-2/refs/heads/main/src/assets/"
+
     return (
         <>
             <div className="main-home container-fluid p-0">
@@ -181,27 +182,27 @@ export default function Home(){
                         <ul>
                             <li>
                                 <a href="" target="_blank">
-                                    <img src={module_4_1} alt="" />
+                                    <img src={Image_src + "module-4-1.jpg"} alt="" />
                                 </a>
                             </li>
                             <li>
                                 <a href="" target="_blank">
-                                    <img src={module_4_2} alt="" />
+                                    <img src={Image_src + "module-4-2.png"} alt="" />
                                 </a>
                             </li>
                             <li>
                                 <a href="" target="_blank">
-                                    <img src={module_4_3} alt="" />
+                                    <img src={Image_src + "module-4-3.png"} alt="" />
                                 </a>
                             </li>
                             <li>
-                                <img src={code_icon1} alt="" />
+                                <img src={Image_src + "logo-5.jpg"} alt="" />
                             </li>
                             <li>
-                                <img src={code_icon1} alt="" />
+                                <img src={Image_src + "logo-6.png"} alt="" />
                             </li>
                             <li>
-                                <img src={code_icon1} alt="" />
+                                <img src={Image_src + "logo-7.png"} alt="" />
                             </li>
                         </ul>
                     </div>
@@ -219,7 +220,7 @@ export default function Home(){
 
                             <div className="image-box-blurb">
                                 <a href="https://google.com" target="_blank">
-                                    <img src={tiles1} alt="" />
+                                    <img src={Image_src+'ra.jpg'} alt="" />
                                     <div className="info">
                                         <h3 className="h3-title">CoinView Mobile App Design</h3>
                                         <p className="paragraph-1">

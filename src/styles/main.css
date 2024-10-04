@@ -105,9 +105,9 @@
   justify-content: center;
 }
 .logo-box ul li img {
-  padding: 1vw 10px;
+  padding: 0.5vw 10px;
   max-width: 100%;
-  max-height: 60px;
+  max-height: 70px;
 }
 
 .image-box-blurb {
@@ -119,6 +119,9 @@
 }
 .image-box-blurb img {
   width: 100%;
+  max-height: 450px;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 .image-box-blurb .info {
   padding: 3em 2em;
