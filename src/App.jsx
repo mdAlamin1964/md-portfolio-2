@@ -1,5 +1,6 @@
 import React from "react"
 import { Routes, Route } from 'react-router-dom'
+import data from './data'
 import Header from "./Header"
 import Home from "./Home"
 import Footer from "./Footer"
@@ -16,6 +17,32 @@ function toggle_mobile_menu_toggle() {
 }
 
 
+const Image_src = "https://raw.githubusercontent.com/mdAlamin1964/md-portfolio-2/refs/heads/main/src/assets/"
+const work_experience_items = data.map((n,i) => {
+  if (i <= 3) {
+    return (
+      <div className="image-box-blurb">
+          <a href={n.url} target="_blank">
+              <img src={Image_src+n.image} alt={n.image} />
+              <div className="info">
+                  <h3 className="h3-title">{n.name}</h3>
+                  <p className="paragraph-1">
+                    {n.paragraph}
+                  </p>
+              </div>
+
+              <div className="icon-bottom">
+                  ↗
+              </div>
+          </a>
+      </div>
+    )
+  }
+});
+
+
+
+console.log(data)
   return (
     <>  
         <Header
@@ -26,7 +53,9 @@ function toggle_mobile_menu_toggle() {
           <div className="main container-fluid px-0">
             <Routes>
               <Route path="/" element={
-                <Home/>
+                <Home
+                  work_experience_items = {work_experience_items}
+                />
               }/>
               <Route path='/about' element={
                   <h1>About</h1>

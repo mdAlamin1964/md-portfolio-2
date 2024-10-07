@@ -10,7 +10,7 @@ import module_4_3 from './assets/module-4-3.png'
 
 
 
-export default function Home(){
+export default function Home({work_experience_items}){
     const Image_src = "https://raw.githubusercontent.com/mdAlamin1964/md-portfolio-2/refs/heads/main/src/assets/"
 
     return (
@@ -56,7 +56,7 @@ export default function Home(){
                                 01
                             </div>
                             <h3 className="h3-title mb-2">
-                                <span className="color-green">Fiverr</span>, Web developer
+                                <a href="https://www.fiverr.com/alamin1964" target="_blank" className="color-green">Fiverr</a>, Web developer
                             </h3>
                             <p className="paragraph-1">
                             I am currently working as a freelancer on Fiverr. Feel free to visit my profile to learn more about my services.
@@ -66,8 +66,7 @@ export default function Home(){
                         <div className="big-num">
                                 02
                             </div>
-                            <h3 className="h3-title mb-2">
-                                <span className="color-blue">upWork</span>, WordPress developer
+                            <h3 className="h3-title mb-2"><a href="https://www.upwork.com/freelancers/~01a3cf6bbd0801dea6" target="_blank" className="color-blue">upWork</a>, WordPress developer
                             </h3>
                             <p className="paragraph-1">
                                 I am currently working as a freelance WordPress developer on Upwork. Feel free to check out my profile for more details.
@@ -78,7 +77,7 @@ export default function Home(){
                                 03
                             </div>
                             <h3 className="h3-title mb-2">
-                                <span className="color-pink">Cure-it-Systems</span>, Web developer and Executive assistant
+                                <a href="https://cureitsystems.com/" target="_blank" className="color-pink">Cure-it-Systems</a>, Web developer and Executive assistant
                             </h3>
                             <p className="paragraph-1">
                                 I oversee all website-related tasks and build websites for clients while also managing executive operations for Cure-it-Systems
@@ -217,68 +216,12 @@ export default function Home(){
                             <h4 className="h4-title mb-3">MY PROJECTS</h4>
                             <h1 className="h1-title mb-5">Work that I’ve done for the past 8 years
                             </h1>
-
-                            <div className="image-box-blurb">
-                                <a href="https://mdalmaincoder1.pythonanywhere.com/" target="_blank">
-                                    <img src={Image_src+'memsm.png'} alt="" />
-                                    <div className="info">
-                                        <h3 className="h3-title">MemeShare Social App</h3>
-                                        <p className="paragraph-1">
-                                        Python, React, Sass, CSS their mobile app. I was asked to come up with a brand new design system and rethink the entire user experience from the ground up.
-                                        </p>
-                                    </div>
-
-                                    <div className="icon-bottom">
-                                        ↗
-                                    </div>
-                                </a>
-                            </div>
-
-                            <div className="image-box-blurb">
-                                <img src={tiles1} alt="" />
-                                <div className="info">
-                                    <h3 className="h3-title">CoinView Mobile App Design</h3>
-                                    <p className="paragraph-1">
-                                    I was commissioned by Coinview to revamp their mobile app. I was asked to come up with a brand new design system and rethink the entire user experience from the ground up.
-                                    </p>
-                                </div>
-
-                                <div className="icon-bottom">
-                                    ↗
-                                </div>
-                            </div>
                         </div>
-                        <div className="col-md-6 right">
-                        <div className="image-box-blurb">
-                                <img src={tiles1} alt="" />
-                                <div className="info">
-                                    <h3 className="h3-title">CoinView Mobile App Design</h3>
-                                    <p className="paragraph-1">
-                                    I was commissioned by Coinview to revamp their mobile app. I was asked to come up with a brand new design system and rethink the entire user experience from the ground up.
-                                    </p>
-                                </div>
-
-                                <div className="icon-bottom">
-                                    ↗
-                                </div>
-                            </div>
-
-                            <div className="image-box-blurb">
-                                <img src={tiles1} alt="" />
-                                <div className="info">
-                                    <h3 className="h3-title">CoinView Mobile App Design</h3>
-                                    <p className="paragraph-1">
-                                    I was commissioned by Coinview to revamp their mobile app. I was asked to come up with a brand new design system and rethink the entire user experience from the ground up.
-                                    </p>
-                                </div>
-
-                                <div className="icon-bottom">
-                                    ↗
-                                </div>
-                            </div>
-                            <div className="btn-area mt-5">
-                                <a href="#" className="site-btn-2">View all projects</a>
-                            </div>
+                        <div className="experience-items">
+                            {work_experience_items}
+                        </div>
+                        <div className="btn-area mt-5">
+                            <a href="#" className="site-btn-2">View all projects</a>
                         </div>
                     </div>
                 </div>

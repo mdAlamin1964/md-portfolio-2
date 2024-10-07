@@ -299,6 +299,12 @@ p {
   text-align: center;
   margin-top: 5em !important;
 }
+.module-5 .experience-items {
+  display: grid;
+  grid-template-columns: auto auto;
+  -moz-column-gap: 3em;
+       column-gap: 3em;
+}
 
 .module-6 .left {
   min-height: 300px;
@@ -543,6 +549,9 @@ body {
   }
   .logo-box ul li {
     padding: 15px 0;
+  }
+  .module-5 .experience-items {
+    display: block;
   }
   .module-6 .stuck-image {
     height: 50vh;

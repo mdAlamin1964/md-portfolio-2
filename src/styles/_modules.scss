@@ -104,7 +104,11 @@
         text-align: center;
         margin-top: 5em !important;
     }
-    
+    .experience-items {
+        display: grid;
+        grid-template-columns: auto auto;
+        column-gap: 3em;
+    }
 }
 
 
