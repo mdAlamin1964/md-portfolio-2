@@ -195,6 +195,14 @@ $background-color-3: #FBE4FF;
             bottom: 0;
         }
     }
+
+    .paragraph-1-gray {
+        color: $primary_text_color;
+        padding: 0.3em 0.5em;
+        background: rgb(0,215,255);
+        background: linear-gradient(90deg, $primary_link_color 33%,  $ascent_color 91%);
+        text-align: right;
+    }
 }
 
 

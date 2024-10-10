@@ -1,6 +1,7 @@
 import React from "react"
 import { Routes, Route } from 'react-router-dom'
 import data from './data'
+import Experience from "./Experience"
 import Header from "./Header"
 import Home from "./Home"
 import Footer from "./Footer"
@@ -29,6 +30,7 @@ const work_experience_items = data.map((n,i) => {
                   <p className="paragraph-1">
                     {n.paragraph}
                   </p>
+                  <p className="paragraph-1-gray">{n.lang}</p>
               </div>
 
               <div className="icon-bottom">
@@ -41,8 +43,32 @@ const work_experience_items = data.map((n,i) => {
 });
 
 
+const work_experience_all_items_react = data.map((n) => {
+    return (
+      <div className="image-box-blurb">
+          <a href={n.url} target="_blank">
+              <img src={Image_src+n.image} alt={n.image} />
+              <div className="info">
+                  <h3 className="h3-title">{n.name}</h3>
+                  <p className="paragraph-1">
+                    {n.paragraph}
+                  </p>
+                  <p className="paragraph-1-gray">{n.lang}</p>
+              </div>
 
-console.log(data)
+              <div className="icon-bottom">
+                  ↗
+              </div>
+          </a>
+      </div>
+    )
+  }
+);
+
+
+
+
+
   return (
     <>  
         <Header
@@ -57,8 +83,10 @@ console.log(data)
                   work_experience_items = {work_experience_items}
                 />
               }/>
-              <Route path='/about' element={
-                  <h1>About</h1>
+              <Route path='/experience' element={
+                  <Experience 
+                    item_react = {work_experience_all_items_react}
+                  />
                 }/>
               <Route path="/contact" element={
                 <h1>Contact</h1>

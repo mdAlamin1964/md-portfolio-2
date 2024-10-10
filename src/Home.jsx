@@ -234,10 +234,13 @@ export default function Home({work_experience_items}){
                         <div className="col-md-6 left my-5 px-md-5 px-3">
                             <h1 className="h1-title mb-4">Instagram</h1>
                             <p className="paragraph-1">
-                                If you area a person who enjoys photography, then I highly recommend that you check out my Instagram. I’m an avid traveller and I capture the best moments that I would love to cherish with the world
+                                Maybe life is to face the darkness, face the hardship, face the loneliness and still going ahead. Or we can try doing so. Try a little harder, The destination is no more required, not today, not tomorrow. Live by the moment each moment to make the best use of it. You do not need to follow any tradition, you are not what they teach you or what they told you. You are just you, only beautiful you.
+                                <br />
+                                <br />
+                                    __md_alamin
                             </p>
 
-                            <a href="#" className="site-btn-1">Follow me on IG</a>
+                            <a href="https://www.instagram.com/__md__alamin/" target="_blank" className="site-btn-1">Follow me on IG</a>
                         </div>
                         <div className="col-md-6 right p-0">
                             <img src={home1} alt="" />

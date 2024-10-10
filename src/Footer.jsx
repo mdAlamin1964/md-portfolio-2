@@ -9,7 +9,7 @@ export default function Footer(){
                 <div className="container-fluid py-5 px-md-5 px-3">
                     <div className="row g-5">
                         <div className="col-md-6 left">
-                            <h1 className="name-logo">Md.A</h1>
+                        <a href="/"><h1 className="name-logo">Md.A</h1></a>
                             <div className="social-icons mt-2">
                                 <ul>
                                     <li>

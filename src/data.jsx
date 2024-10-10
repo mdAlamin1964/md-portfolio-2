@@ -43,12 +43,5 @@ export default [
         lang: "js, React, Sass, CSS",
         paragraph: "Python, React, Sass, CSS their mobile app. I was asked to come up with a brand new design system and rethink the entire user experience from the ground up.",
     },
-    {
-        image: "frontside-todo.jpg",
-        url: "https://mdalamin1964.github.io/frontside-todo/",
-        name: "ToDo app",
-        lang: "js, Python, React, CSS, Sass",
-        paragraph: "Python, React, Sass, CSS their mobile app. I was asked to come up with a brand new design system and rethink the entire user experience from the ground up.",
-    },
     
 ]

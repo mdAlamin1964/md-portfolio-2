@@ -6,7 +6,7 @@ export default function Header({handle_mobile_menu, show_mobile_menu}) {
             <div className="main-header container-fluid px-md-4">
                 <div className="row d-flex align-items-center ">
                     <div className="col-md-4 logo-bar d-flex align-items-center justify-content-between ">
-                        <h1 className="name-logo">Md.A</h1>
+                        <a href="/"><h1 className="name-logo">Md.A</h1></a>
                         <div className="mobile-menu-icon cursor-pinter" onClick={handle_mobile_menu()}>☰</div>
                     </div>
                     <div className={`col-md-8 menu-item-bar ${show_mobile_menu? 'menu-item-bar-show' : ''}`}>

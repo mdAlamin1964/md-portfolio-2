@@ -153,6 +153,13 @@
   right: 0;
   bottom: 0;
 }
+.image-box-blurb .paragraph-1-gray {
+  color: #FFFFFF;
+  padding: 0.3em 0.5em;
+  background: rgb(0, 215, 255);
+  background: linear-gradient(90deg, #02e7eb 33%, #1E90FF 91%);
+  text-align: right;
+}
 
 .site-btn-2 {
   color: #FFFFFF;
@@ -438,6 +445,10 @@ p {
     margin-left: 0px;
   }
 }
+.main-home {
+  margin-top: -90px;
+}
+
 .home-sac-6 {
   background: #FBE4FF;
 }
@@ -447,7 +458,7 @@ body {
 }
 
 .main-header {
-  position: absolute;
+  position: relative;
   top: 0;
   background: transparent;
   z-index: 10;
@@ -458,6 +469,9 @@ body {
 .main-header .logo-bar {
   padding-top: 1rem;
   padding-bottom: 1rem;
+}
+.main-header .logo-bar a {
+  padding: 0;
 }
 .main-header h1 {
   letter-spacing: -2px;
